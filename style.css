@@ -1,0 +1,122 @@
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,select,textarea,dl,dd{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+input,select,textarea{background-color: transparent; border: none; outline: none;}
+textarea{resize: none;}
+img{vertical-align: top;}
+a{text-decoration: none;-webkit-tap-highlight-color: transparent;}
+
+html {-webkit-text-size-adjust: none;}
+
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.fr{float: right;} .fl{float: left;}
+
+body{
+	background-color: #E8E8E8;
+}
+header{
+	background-color: #38474F;
+	padding: 0 0.6rem;
+}
+header .hd-top{
+	height: 2.4rem;
+	color: #fff;
+	line-height: 2.4rem;
+	font-size: 0.65rem;
+}
+.hd-top h5{
+	margin-left:1.15rem;
+}
+.gwc{
+	position: relative;
+		
+}
+.gwc:hover{
+	color: red;
+}
+.hd-top i{
+	width: 0.7rem;
+	height: 0.45rem;
+	border-radius: 9px;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.475rem;
+	font-style: normal;
+	color: black;
+	position: absolute;
+	left: 0.5rem; top:0.675rem;
+	background-color: #F8F8F8;
+}
+.hd-bt{
+	height: 1.575rem;
+	padding-bottom: 0.375rem;
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+.hd-btleft{
+    width: 7.175rem;
+	height: 1.575rem;
+	line-height:1.575rem;
+	background-color: #2D3A40;
+	border-radius: 2px;
+	
+}
+.hd-btright{
+    width: 7.175rem;
+	height: 1.575rem;
+	line-height:1.575rem;
+	background-color: #F6846A;
+	border-radius: 2px;
+}
+.banner{
+	width: 14.8rem;
+	height: 14.8rem;
+	margin: 0.625rem  0.6rem 0rem  0.6rem ;
+	border-radius: 6px;
+	box-shadow: 0 0 0.1rem 0.025rem #ccc;
+	overflow: hidden;
+}
+.banner img{
+	width: 14.8rem;
+	height: 11.8rem;
+	display: inline-block;
+}
+.bannerbt{
+	font-size: 0.6rem;
+	height: 1.8rem;
+	line-height: 1.675rem;
+	padding: 0.625rem 0.6rem 0.625rem 1.05rem;
+	background-color: #fff;
+}
+.maoner{
+	background-color: #BFBFC4;
+	display: inline-block;
+    width: 3.6rem;
+	height: 1.675rem;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 3px;
+}
+.jia{
+	width: 14.8rem;
+	background-color: #fff;
+	height: 2.475rem;
+	margin-left: 0.6rem;
+	margin-top: 0.75rem;
+	border-radius: 6px;
+	box-shadow: 0 0 0.1rem 0.025rem #ccc;
+	
+}
+.jia span{
+	font-size: 0.6rem;
+	height: 2.475rem;
+	line-height: 2.475rem;
+	background:url(img/jia.jpg) no-repeat;
+	padding-left: 1.75rem;
+	margin-left: 0.6rem;
+}
