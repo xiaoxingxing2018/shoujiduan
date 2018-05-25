@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+ <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="font/iconfont.css">
+<title>无标题文档</title>
+<script>
+	   alert(window.screen.width)
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+
+<body>
+	<header>
+		<div class="hd-top">
+		   <span class="iconfont fl">&#xe78a;</span>
+		    <h5 class="fl" >Woman, Dresses</h5>
+		    <span class="iconfont gwc fr icon-gouwuche2"><i>3</i></span>
+		    </div>
+		<div class="hd-bt">
+			<div class="hd-btleft fl">ADD TO WISHLLST</div>
+			<div class="hd-btright fr">ADD TO CART</div>
+		</div>
+	</header>
+	
+	<div class="banner">
+		<img src="img/banner.jpg" alt="">
+		<div class="bannerbt">
+			<span class="fl ">Elegant Pink Dresses</span>
+			<a href="" class="fr maoner">$605,00</a>
+		</div>
+	</div>
+	<div class="jia">
+		<span>Description</span>
+	</div>
+</body>
+</html>
